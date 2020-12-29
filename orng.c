@@ -26,6 +26,7 @@
 #include <sys/time.h>
 #include <errno.h>
 #include <assert.h>
+#include <unistd.h>
 
 #ifdef NDK_BUILD
 #include "linux_input.h"
